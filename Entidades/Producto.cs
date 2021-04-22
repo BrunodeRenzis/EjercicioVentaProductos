@@ -10,11 +10,11 @@ namespace Entidades
     {
         string nombre;
         double precioBruto;
-        double impuesto;
+        EImpuesto impuesto;
         List<Proveedor> proveedores;
          
 
-        public Producto(double impuesto)
+        public Producto(EImpuesto impuesto)
         {
             this.impuesto = impuesto;
         }
@@ -23,7 +23,7 @@ namespace Entidades
             get { return this.nombre; }
             set { nombre = value; }
         }
-        public double Impuesto
+        public EImpuesto Impuesto
         {
             get { return this.impuesto; }
         }
@@ -39,7 +39,45 @@ namespace Entidades
 
         double CalcularPrecioFinal()
         {
-            return (this.precioBruto * this.Impuesto);
+            double porcentajeImpuesto=0;
+            switch(this.Impuesto)
+            {
+                case EImpuesto.Veintiuno:
+                    porcentajeImpuesto = 21;
+                    break;
+                case EImpuesto.Diez:
+                    porcentajeImpuesto = 10.5;
+                    break;
+                case EImpuesto.SinImpuesto:
+                    porcentajeImpuesto   = 0;
+                    break;
+            }
+            return (this.precioBruto * porcentajeImpuesto);
+        }
+
+        public double this [string clave]
+        {
+            get
+            {
+
+                if (clave == "precio final")
+                {
+                    return this.CalcularPrecioFinal();
+                }
+
+                else if (clave == "precioBruto")
+                {
+                    return this.precioBruto;
+                }
+
+                else if (clave == "impuesto")
+                {
+                    return (double)this.impuesto;
+                }
+
+                return -1;
+            }
+            
         }
 
     }

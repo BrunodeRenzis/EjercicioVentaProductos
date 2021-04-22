@@ -20,7 +20,7 @@ namespace VentaProductos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Producto unProducto = new Producto(1.21);
+            Producto unProducto = new Producto(EImpuesto.Veintiuno);
             unProducto.Nombre = "Bruno";
             MessageBox.Show(unProducto.Nombre);
             MessageBox.Show(unProducto.Impuesto.ToString());
@@ -28,7 +28,20 @@ namespace VentaProductos
 
             Gondola unaGondola = new Gondola();
             unaGondola[0] = unProducto;
-            MessageBox.Show(unaGondola[0].Nombre,"Producto");
+            MessageBox.Show(unProducto["PrecioFinal"].ToString(),"Producto");
+
+            EImpuesto miEnumerado;
+            miEnumerado = EImpuesto.SinImpuesto;
+
+            switch (miEnumerado)
+            {
+                case EImpuesto.Veintiuno:
+                    break;
+                case EImpuesto.Diez:
+                    break;
+                case EImpuesto.SinImpuesto:
+                    break;
+            }
 
 
         }
