@@ -1,0 +1,13 @@
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\bin\Debug\VentaProductos.exe.config
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\bin\Debug\VentaProductos.exe
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\bin\Debug\VentaProductos.pdb
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\bin\Debug\Entidades.dll
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\bin\Debug\Entidades.pdb
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\obj\Debug\FrmPrincipal.csprojAssemblyReference.cache
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\obj\Debug\VentaProductos.Form1.resources
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\obj\Debug\VentaProductos.Properties.Resources.resources
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\obj\Debug\FrmPrincipal.csproj.GenerateResource.cache
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\obj\Debug\FrmPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\obj\Debug\FrmPrincipal.csproj.CopyComplete
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\obj\Debug\VentaProductos.exe
+C:\Users\Bruno de Renzis\source\repos\VentaProductos\VentaProductos\obj\Debug\VentaProductos.pdb
